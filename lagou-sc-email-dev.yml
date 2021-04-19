@@ -1,0 +1,11 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: ${SPRING_EMAIL_USERNAME}
+    password: ${SPRING_EMAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+    default-encoding: utf-8
