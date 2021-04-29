@@ -11,4 +11,4 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 config:
-  test: 20
+  test: 10
